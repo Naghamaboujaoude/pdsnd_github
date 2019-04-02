@@ -25,7 +25,11 @@ def get_filters():
         else:
                 break
 
+<<<<<<< HEAD
     # TO DO: get user input for month: (all, january, february, ... , june)
+=======
+    # TO DO: get user input for month (all, january, february, ... , june)
+>>>>>>> 87ceebc2e6f77fc291ff045da7fddcd48d71bbe4
     while True:
         month = input("\nWhich month would you like to work on? January, February, March, April, May, June or type 'all' if you do not want to filter by month\n")
         if month not in ('January', 'February', 'March', 'April', 'May', 'June', 'all'):
@@ -34,7 +38,11 @@ def get_filters():
         else:
                 break
 
+<<<<<<< HEAD
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+=======
+    # TO DO: get user input for day of the week (all, monday, tuesday, ... sunday)
+>>>>>>> 87ceebc2e6f77fc291ff045da7fddcd48d71bbe4
     while True:
         day = input("\nYou can choose a day: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or type 'all' if you do not want to  filter by day.\n")
         if day not in ('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'all'):
@@ -124,7 +132,11 @@ def trip_duration_stats(df):
 
     # TO DO: display total travel time
     Total_Travel_Time = sum(df['Trip Duration'])
+<<<<<<< HEAD
     print('Total travel time:', Total_Travel_Time/86400, " Days")
+=======
+    print('Total time:', Total_Travel_Time/86400, " Days")
+>>>>>>> 87ceebc2e6f77fc291ff045da7fddcd48d71bbe4
 
     # TO DO: display mean travel time
     Mean_Travel_Time = df['Trip Duration'].mean()
